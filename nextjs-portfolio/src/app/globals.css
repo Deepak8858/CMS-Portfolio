@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles for consistent UI theme */
+body {
+  @apply bg-background text-text font-sans;
+}
+
+a {
+  @apply text-primary hover:text-accent transition-colors;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold text-secondary;
+}
+
+p {
+  @apply mb-4 text-muted;
+}
+
+.custom-cursor {
+  transition: transform 0.2s cubic-bezier(0.22, 1, 0.36, 1), background 0.2s, box-shadow 0.2s;
+  will-change: transform, background, box-shadow;
+  mix-blend-mode: difference;
+  border: 1.5px solid #71717A; /* Tailwind muted color */
+  background: rgba(255,255,255,0.8);
+  box-shadow: none;
+}
+
+.custom-cursor.cursor-grow {
+  transform: scale(1.5);
+  background: #fff;
+  border-color: #F5A623;
+  box-shadow: 0 0 0 6px rgba(245,166,35,0.10);
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  33% { transform: translateY(-10px) rotate(1deg); }
+  66% { transform: translateY(5px) rotate(-1deg); }
+}
+
+.floating-element {
+  animation: float 6s ease-in-out infinite;
+  animation-delay: var(--delay, 0s);
+}

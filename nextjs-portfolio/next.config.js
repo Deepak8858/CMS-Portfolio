@@ -1,0 +1,1 @@
+// This file is intentionally left blank. Use next.config.cjs for configuration.

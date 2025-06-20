@@ -1,0 +1,38 @@
+{
+  "node": {
+    "2d820eb75990cae426d7b70bbb38b57fe5e492a4": {
+      "workers": {
+        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22H%3A%5C%5CPortfolio-Latest%5C%5Cportfolio%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%2C%22deleteKeylessAction%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/admin/page": "rsc"
+      }
+    },
+    "5d6f9e036cafd2317ab970083072c3ba978a996d": {
+      "workers": {
+        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22H%3A%5C%5CPortfolio-Latest%5C%5Cportfolio%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%2C%22deleteKeylessAction%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/admin/page": "rsc"
+      }
+    },
+    "e23bcd9b1b1c2ff2eda2328c01695b1760ea741f": {
+      "workers": {
+        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22H%3A%5C%5CPortfolio-Latest%5C%5Cportfolio%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%2C%22deleteKeylessAction%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/admin/page": "rsc"
+      }
+    },
+    "1ac246282d9e43aaa445c8782ef135f995f2ccfc": {
+      "workers": {
+        "app/admin/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22H%3A%5C%5CPortfolio-Latest%5C%5Cportfolio%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/admin/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "vDPhQd1/SMkQpg7tJ3vPK6HG8IRjEMvfs6tuYT+YbOI="
+}
